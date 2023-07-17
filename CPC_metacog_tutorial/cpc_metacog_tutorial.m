@@ -276,6 +276,9 @@ high_noise_area = cpc_calcAU_type2roc(sim3.highNoise)
 %     - You can plot using: cpc_plot_type2ROC(sim2.dHigh, 'HIGH d', 'obs')
 % 
 %     - You can calculate the area using: cpc_calcAU_type2roc(sim2.dHigh)
+
+figure;
+cpc_plot_type2roc(sim2.dHigh, 'HIGH d','obs');
 % 
 % 
 % 
